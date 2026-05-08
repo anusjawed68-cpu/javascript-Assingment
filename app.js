@@ -419,6 +419,76 @@
 // }
 
 
+// chapter 14-16 "Arrays"
+
+// Task 1
+// var studentNames = [];
+
+// // Task 2
+// var studentNames = new Array();
+
+//Task 3
+// var stringArray = ["Anus", "Jawed", "Ali"];
+
+// Task 4
+// var numberArray = [1, 2, 3, 4, 5];
+
+// Task 5
+// var booleanArray = [true, false, true, false];
+
+// Task 6
+// var mixedArray = ["Anus", 19, true, "Student"];
+
+// Task 7
+// var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.writeln("<h1>Qualifications</h1><br><br>");
+// for (var i = 0; i < qualifications.length; i++) {
+//     document.writeln((i + 1) + ") " + qualifications[i] + "<br>");
+// }
+
+// Task 8
+// var studentNames = ["Anus", "Jawed", "Ali"];
+// var studentScores = [320, 230, 480];
+// var totalMarks = 500;
+// for (var i = 0; i < studentNames.length; i++) {
+//     var percentage = (studentScores[i] / totalMarks) * 100;
+//     document.writeln(studentNames[i] + " scored " + studentScores[i] + " out of " + totalMarks + " (" + percentage.toFixed(2) + "%)<br>");
+// }
+
+// Task 9
+// var colorNames = ["Red", "Green", "Blue"];
+// var userColor = prompt("Enter a color to add to the beginning of the array:");
+// colorNames.unshift(userColor);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorEnd = prompt("Enter a color to add to the end of the array:");
+// colorNames.push(userColorEnd);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorStart = prompt("Enter a color to add to the beginning of the array:");
+// colorNames.unshift(userColorStart);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorDelete = prompt("Enter a color to delete from the beginning of the array:");
+// colorNames.shift(userColorDelete);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorDeleteEnd = prompt("Enter a color to delete from the end of the array:");
+// colorNames.pop(userColorDeleteEnd);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorIndex = +prompt("Enter the index to add a color:");
+// var userColorAtIndex = prompt("Enter a color to add at index " + userColorIndex + ":");
+// colorNames.splice(userColorIndex, 0, userColorAtIndex);
+
+// document.writeln("Updated Array: " + colorNames + "<br>");
+// var userColorDeleteIndex = +prompt("Enter the index to delete a color:");
+// var userColorDeleteCount = +prompt("Enter the number of colors to delete from index " + userColorDeleteIndex + ":");
+// colorNames.splice(userColorDeleteIndex, userColorDeleteCount);
+// document.writeln("Updated Array: " + colorNames + "<br>");
+
+// // Task 10
+// var studentScores = [320, 230, 480, 120];
+// document.writeln("Scores of Students: " + studentScores + "<br>");
+// studentScores.sort(function(a, b) {
+//     return b - a;
+// });
+// document.writeln("Sorted Scores: " + studentScores + "<br>");   
 
 
 
