@@ -490,5 +490,139 @@
 // });
 // document.writeln("Sorted Scores: " + studentScores + "<br>");   
 
+// Task 11
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// document.writeln("Cities List: " + cities + "<br>");
+// var selectedCities = cities.slice(2, 4);
+// document.writeln("Selected Cities List: " + selectedCities + "<br>");
 
+// Task 12
+// var arr = ["This", "is", "my", "cat"];
+// var singleString = arr.join(" ");
+// document.writeln("Array: " + arr + "<br>");
+// document.writeln("String: " + singleString + "<br>");
 
+// Task 13
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.writeln("Devices: " + devices + "<br>");
+// for (var i = 0; i < devices.length; i++) {
+//     document.writeln("Out: " + devices[i] + "<br>");
+// }   
+
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.writeln(`<h1>Devices :<br/> ${devices} <br/> <br/>`);
+// devices.reverse()
+// for(var i = 0; i< devices.length;i++){
+// document.writeln(`Out : <br/>${devices[i]} <br/><h1/>`)
+// }
+
+// var manufacturers = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+//     document.writeln(`<select>`)
+// for(var i = 0;i<manufacturers.length;i++){
+//     document.writeln(`<option>${manufacturers[i]}</option>`)
+// }document.writeln(`</select>`)
+
+// Chapter 17 To 20
+
+// Task 1
+// var arr [
+//     []
+// ]
+
+// Task 2
+// var arr = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ];
+// for(var i = 0;i<arr.length;i++){
+// document.writeln(`<h1>${arr[i]}</br> </h1>`)
+// }
+
+// Task 3
+// for(var i = 1;i<=10;i++){
+//     document.writeln(`<h1> ${i} <br/></h1>`)
+// }
+
+// Task 4
+// var input = +prompt("Enter a Number to show its Multiplication Table");
+// var input1 = +prompt("Enter The Length Of Table");
+// for(var i = 1;i<=input1;i++){
+//     document.writeln(`${input} x ${i} = ${input*i} <br/>`)
+// }
+
+// Task 5
+// var fruits = ["Apple","Banana","Mango","Orange","Strawberry"];
+//  for(var i = 0;i<fruits.length;i++){
+//     document.writeln(`<h1>${fruits[i]} </br>`)
+//  }
+// for(var i = 0;i<fruits.length;i++){
+//     document.writeln(`Element At Index ${i} is :${fruits[i]}</br>`)
+
+// }
+
+// Task 6
+// document.writeln(`<h1>Counting :</h1>`)
+// for(var i = 1;i<=15;i++){
+//     document.writeln(`${i},`)
+// }
+
+// document.writeln(`<h1></br>Reverse Counting :</h1>`)
+// for(var i = 10;i>=1;i--){
+//     document.writeln(`${i},`)
+// }
+
+// document.writeln(`</br><h1>Even : </h1>`)
+// for(var i = 0;i<=20;i=i+2){
+//     document.writeln(`${i},`)
+// }
+
+// document.writeln(`</br><h1>Odd : </h1>`)
+// for(var i = 1;i<=20;i=i+2){
+//     document.writeln(`${i},`)
+// }
+
+// document.writeln(`</br><h1>Series : </h1>`)
+// for(var i = 2;i<=20;i=i+2){
+//     document.writeln(`${i}k,`)
+// }
+
+// Task 7
+// var items = ["cake","apple pie","cookie","chips","patties"]
+// var input = prompt("Welcome To Abc Bakery What Do you Want To Order Sir/Ma'am")
+// var available = false
+// for(var i = 0;i<items.length;i++){
+// if(input==items[i]){
+//     available=true
+// document.writeln(`${input} is AvailAble at index ${i} in our bakery`)
+// }
+// }
+// if (available==false) {
+//     document.writeln(`${input} is Not AvailAble in our bakery`)
+// }
+
+// Task 8
+// var arr = [24,53,78,91,12]
+// var largest = 0
+// for(var i = 0;i<arr.length;i++){
+//     if (largest < arr[i]) {
+//         largest = arr[i]
+//     }
+// }
+// document.writeln(`Array Items ${arr}</br>`)
+// document.writeln(`Largest Number is : ${largest}</br>`);
+
+// var arr = [24,53,78,91,12]
+// var smallest = arr[0]
+// for(var i = 0;i<arr.length;i++){
+//     if (arr[i] < smallest) {
+//         smallest = arr[i]
+//     }
+// }
+// document.writeln(`</br></br>Array Items ${arr}</br>`)
+// document.writeln(`Smallest Number is : ${smallest}</br>`)
+
+// Task 9
+// for(var i = 5;i<=100;i=i+5){
+// console.log(i);
+// }
