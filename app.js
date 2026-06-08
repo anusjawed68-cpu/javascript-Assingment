@@ -626,3 +626,80 @@
 // for(var i = 5;i<=100;i=i+5){
 // console.log(i);
 // }
+
+// Chapter 21-25 "Strings Methods"
+
+//  Task 1
+
+// var firstName = prompt("Enter Your First Name ")
+// var lastName = prompt("Enter Your Last Name ")
+// alert(`Full Name is : ${firstName} ${lastName}`)
+
+// Task 2
+
+// var mobiles = prompt("Enter Your Favorite Mobile Phone Name")
+// var length = mobiles.length;
+// alert(`My favorite Mobile is ${mobiles} \n Length of String is ${length}`)
+
+// Task 3
+
+// var country = "Pakistan";
+// var indexNumber = country.indexOf("n")
+// alert(`String ${country} \n Index of 'n' ${indexNumber}`)
+
+// Task 4
+
+// var word = "Hello World";
+// var index = word.lastIndexOf("l")
+// alert(`Sting : ${word} \n Last index of "L" : ${index}`)
+
+// Task 5
+// var string = "Pakistan";
+// alert(`String ${string}\n Character At Index 3 : ${string.charAt(3)}`)
+
+// Task 6
+
+// var firstName = prompt("Enter Your First Name ")
+// var lastName = prompt("Enter Your Last Name ")
+// var fullName = firstName.concat(lastName)
+// alert(`Full Name is : ${fullName}`)
+
+// Task 7
+// var city = "HyderAbad";
+// var replace = city.replace("Hyder","Islam") 
+// console.log(`City : ${city} \n After Replacement : ${replace}`)
+
+// Task 8 
+// var message = "Ali and Sami are best friends. They play cricket and football together";
+// var replace = message.replaceAll("and","&")
+// alert(`Before Replace : ${message}\n After Replace : ${replace}`)
+
+// Task 9
+// var string = "472"
+// alert(`Value : ${string} \n Type : ${typeof string}`);
+// var number = Number(string)
+// alert(`Value : ${number} \n Type : ${typeof number}`);
+
+// Task 10
+
+// var userInput = prompt("Enter Some Text To Convert It Into Upper Case");
+// var upperCase = userInput.toUpperCase();
+// alert(`User Input : ${userInput} \n Upper Case : ${upperCase}`);
+
+// Task 11
+
+// var userInput = prompt("Enter Some Text To Convert It Into Upper Case");
+// var upperCase = userInput.toCapitalize();
+// alert(`User Input : ${userInput} \n Upper Case : ${upperCase}`);
+
+// Task 12
+
+// var userInput = prompt("Enter Some Number to convert into string");
+// if (isNaN(userInput)) {
+//     alert(`Only Will Be Accepted`)
+// }else{
+// var string = userInput.toString()
+// var removeDot = userInput.replaceAll(".","")
+// alert(`User Input Type Is  : ${typeof string} And Number Is : ${removeDot}`)
+// }
+
