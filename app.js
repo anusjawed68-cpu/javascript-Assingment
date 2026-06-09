@@ -703,3 +703,78 @@
 // alert(`User Input Type Is  : ${typeof string} And Number Is : ${removeDot}`)
 // }
 
+// Chapter 26 to 30
+
+// Task 1
+
+// var userInput = +prompt("Enter Only Integer Number")
+// if (userInput < 0) {
+//     alert(`Enter Number Greater Than 0`)
+// }else{
+//     var roundOff = Math.round(userInput)
+//     var floorVal = Math.floor(userInput)
+//     var ceilVal = Math.ceil(userInput);
+//     document.writeln(`<h1>
+//         Number : ${userInput} </br>
+//         Round Off : ${roundOff} </br>
+//         Floor Value : ${floorVal} </br>
+//         Ceil Value : ${ceilVal} </br>
+//         </h1>`
+//     )
+// }
+
+// Task 2
+
+// var userInput = parseFloat(prompt("Enter Only Integer Number"))
+// if (userInput > 0) {
+//     alert(`Enter Number less Than 0`)
+// }
+// else{
+//     var roundOff = Math.round(userInput)
+//     var floorVal = Math.floor(userInput)
+//     var ceilVal = Math.ceil(userInput);
+//     document.writeln(`<h1>
+//         Number : ${userInput} </br>
+//         Round Off : ${roundOff} </br>
+//         Floor Value : ${floorVal} </br>
+//         Ceil Value : ${ceilVal} </br>
+//         </h1>`
+//     )
+// }
+
+// Task 3
+
+// var userInput = +prompt("Enter Any Number To Find Its Absolute Value")
+// var absoluteValue = Math.abs(userInput)
+// alert(`The Absolute Value Of ${userInput} Is : ${absoluteValue}`)
+
+
+// Task 4
+
+// var randomDice = Math.floor(Math.random() * 6) + 1;
+// alert(`Random Dice Value : ${randomDice}`)
+
+// Task 5
+
+// var randomCoin = Math.floor(Math.random() * 2) + 1;
+// if (randomCoin === 1) {
+//     alert(`Random Coin Value : Heads`)
+// } else {
+//     alert(`Random Coin Value : Tails`)
+// }
+
+// Task 6
+
+// var randomNumber = Math.floor(Math.random() * 100) + 1;
+// alert(`Random Number Between 1 And 100 : ${randomNumber}`)
+
+// Chapter 31 to 34
+
+// Task 1
+
+// var currentDate = new Date();
+// document.writeln(`Current Date : ${currentDate}`)
+
+
+
+
