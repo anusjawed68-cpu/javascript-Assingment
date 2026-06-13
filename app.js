@@ -694,13 +694,13 @@
 
 // Task 12
 
-var userInput = prompt("Enter a word:");
-      var titleCaseInput =
-        userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
+// var userInput = prompt("Enter a word:");
+//       var titleCaseInput =
+//         userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
 
-      document.write(
-        "User input: " + userInput + "<br>Title case: " + titleCaseInput,
-      );
+//       document.write(
+//         "User input: " + userInput + "<br>Title case: " + titleCaseInput,
+//       );
 
 // Chapter 26 to 30
 
