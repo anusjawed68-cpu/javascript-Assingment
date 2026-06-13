@@ -694,14 +694,13 @@
 
 // Task 12
 
-// var userInput = prompt("Enter Some Number to convert into string");
-// if (isNaN(userInput)) {
-//     alert(`Only Will Be Accepted`)
-// }else{
-// var string = userInput.toString()
-// var removeDot = userInput.replaceAll(".","")
-// alert(`User Input Type Is  : ${typeof string} And Number Is : ${removeDot}`)
-// }
+var userInput = prompt("Enter a word:");
+      var titleCaseInput =
+        userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase();
+
+      document.write(
+        "User input: " + userInput + "<br>Title case: " + titleCaseInput,
+      );
 
 // Chapter 26 to 30
 
@@ -774,6 +773,110 @@
 
 // var currentDate = new Date();
 // document.writeln(`Current Date : ${currentDate}`)
+
+// Task 2
+
+// var currentMonth = new Date().getMonth();
+// var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// alert(`Current Month : ${monthNames[currentMonth]}`)
+
+// Task 3
+
+// var currentDay = new Date().getDay();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// alert(`Today Is : ${dayNames[currentDay]}`)
+
+// Task 4
+
+// var currentDay = new Date().getDay();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// if (currentDay === 0 || currentDay === 6) {
+//     alert(`It's Fun Day`)
+// } else {
+//     alert(`It's Working Day`)
+// }
+
+// Task 5
+
+// var currentDate = new Date().getDate();  
+// if (currentDate < 16) {
+//     alert(`First Fifteen Days Of The Month`)
+// } else {
+//     alert(`Last Days Of The Month`)
+// }
+
+// Task 6
+
+// var currentDate = new Date();
+// var currentTime = currentDate.getTime();
+// var currentHours = currentDate.getHours();
+// if (currentHours < 12) {
+//     alert(`It's AM`)
+// } else {
+//     alert(`It's PM`)
+// }
+
+// Task 7
+
+// var currentDate = new Date();
+// var currentTime = currentDate.getTime();
+// var referenceDate = new Date("January 1, 1970");
+// var referenceTime = referenceDate.getTime();
+// var elapsedTime = currentTime - referenceTime;
+// var elapsedSeconds = Math.floor(elapsedTime / 1000);
+// var elapsedMinutes = Math.floor(elapsedTime / (1000 * 60));
+// var elapsedHours = Math.floor(elapsedTime / (1000 * 60 * 60));
+// alert(`Elapsed milliseconds since January 1, 1970: ${elapsedTime}\nElapsed seconds since January 1, 1970: ${elapsedSeconds}\nElapsed minutes since January 1, 1970: ${elapsedMinutes}\nElapsed hours since January 1, 1970: ${elapsedHours}`);
+
+// Task 8
+
+// var currentDate = new Date();
+// var currentHours = currentDate.getHours();
+// var currentMinutes = currentDate.getMinutes();
+// var currentSeconds = currentDate.getSeconds();
+// var currentTime = `${currentHours}:${currentMinutes}:${currentSeconds}`;
+// alert(`Current Time : ${currentTime}`)
+
+// Task 9
+
+// var currentDate = new Date();
+// var currentYear = currentDate.getFullYear();
+// var pastYear = +prompt("Enter A Year To Check If It's A Leap Year Or Not")
+// if ((pastYear % 4 === 0 && pastYear % 100 !== 0) || (pastYear % 400 === 0)) {
+//     alert(`${pastYear} is a leap year.`);
+// } else {
+//     alert(`${pastYear} is not a leap year.`);
+// }
+
+// Task 10
+
+var currentDate = new Date();
+var currentMonth = currentDate.getMonth();
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var currentMonthName = monthNames[currentMonth]; 
+var currentYear = currentDate.getFullYear();
+var pastMonth = prompt("Enter A Month To Check Number Of Days In It")
+var daysInMonth;
+if (pastMonth.toLowerCase() === "february") {
+    if ((currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0)) {
+        daysInMonth = 29;
+    } else {
+        daysInMonth = 28;
+    }
+} else if (["january", "march", "may", "july", "august", "october", "december"].includes(pastMonth.toLowerCase())) {
+    daysInMonth = 31;
+} else if (["april", "june", "september", "november"].includes(pastMonth.toLowerCase())) {
+    daysInMonth = 30;
+} else {
+
+}
+
+
+
+
+
+
+
 
 
 
