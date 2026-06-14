@@ -850,27 +850,63 @@
 
 // Task 10
 
-var currentDate = new Date();
-var currentMonth = currentDate.getMonth();
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var currentMonthName = monthNames[currentMonth]; 
-var currentYear = currentDate.getFullYear();
-var pastMonth = prompt("Enter A Month To Check Number Of Days In It")
-var daysInMonth;
-if (pastMonth.toLowerCase() === "february") {
-    if ((currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0)) {
-        daysInMonth = 29;
-    } else {
-        daysInMonth = 28;
-    }
-} else if (["january", "march", "may", "july", "august", "october", "december"].includes(pastMonth.toLowerCase())) {
-    daysInMonth = 31;
-} else if (["april", "june", "september", "november"].includes(pastMonth.toLowerCase())) {
-    daysInMonth = 30;
-} else {
+// var currentDate = new Date();
+// var currentMonth = currentDate.getMonth();
+// var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var currentMonthName = monthNames[currentMonth]; 
+// var currentYear = currentDate.getFullYear();
+// var pastMonth = prompt("Enter A Month To Check Number Of Days In It")
+// var daysInMonth;
+// if (pastMonth.toLowerCase() === "february") {
+//     if ((currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0)) {
+//         daysInMonth = 29;
+//     } else {
+//         daysInMonth = 28;
+//     }
+// } else if (["january", "march", "may", "july", "august", "october", "december"].includes(pastMonth.toLowerCase())) {
+//     daysInMonth = 31;
+// } else if (["april", "june", "september", "november"].includes(pastMonth.toLowerCase())) {
+//     daysInMonth = 30;
+// } else {
+//     alert("Invalid month name");
+// }
 
-}
+// if (daysInMonth) {
+//     alert(`Number of days in ${pastMonth} ${currentYear} is: ${daysInMonth}`);
+// }
 
+// Task 11
+
+// var currentDate = new Date();
+// var currentHours = currentDate.getHours();
+// var currentMinutes = currentDate.getMinutes();
+// var currentSeconds = currentDate.getSeconds();
+// var currentTime = `${currentHours}:${currentMinutes}:${currentSeconds}`;
+// alert(`Current Time : ${currentTime}`)
+// var pastHours = +prompt("Enter Hours To Set Time Backwards")
+// var pastMinutes = +prompt("Enter Minutes To Set Time Backwards")
+// var pastSeconds = +prompt("Enter Seconds To Set Time Backwards")
+// var pastTime = new Date(currentDate.getTime() - (pastHours * 60 * 60 * 1000) - (pastMinutes * 60 * 1000) - (pastSeconds * 1000));
+// var pastHours = pastTime.getHours();
+// var pastMinutes = pastTime.getMinutes();
+// var pastSeconds = pastTime.getSeconds();
+// var pastTimeFormatted = `${pastHours}:${pastMinutes}:${pastSeconds}`;
+// alert(`Past Time : ${pastTimeFormatted}`)
+
+// Task 12
+
+// var date = new Date() 
+// alert(date)
+// date.setFullYear(date.getFullYear() - 100)
+// alert(date)
+
+// Task 13
+
+// var userInput = +prompt("Enter Your Age : ");
+// alert(`Your Age is ${userInput}`)
+// var date = new Date()
+// var brdCal = date.getFullYear() - userInput
+// alert(`Your Birth Year Is : ${brdCal}`)
 
 
 
